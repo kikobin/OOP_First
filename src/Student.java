@@ -30,6 +30,7 @@ System.out.println("GPA: "+gpa);
 public boolean hasHigherGpaThan(Student other){
     return this.gpa >= other.getGpa();
 }
+
 }
 
 
