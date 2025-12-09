@@ -23,7 +23,6 @@ public class Teacher {
     }
     public boolean hasMoreExperienceThan(Teacher other) {
         return this.expirience > other.expirience;
-
     }
 
 

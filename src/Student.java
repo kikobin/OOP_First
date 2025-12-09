@@ -22,10 +22,11 @@ public void setGrade(int grade) {this.grade = grade;}
 public int getGpa() {return gpa;}
 public void setGpa(int gpa) {this.gpa = gpa;}
 public void infoAboutStudent() {
-System.out.println("Full Name: "+fullName);
-System.out.println("Age: " + age);
-System.out.println("Grade: " + grade);
-System.out.println("GPA: "+gpa);
+    System.out.println("Full Name: "+ fullName);
+    System.out.println("Age: " + age);
+    System.out.println("Grade: " + grade);
+    System.out.println("GPA: "+gpa);
+
 }
 public boolean hasHigherGpaThan(Student other){
     return this.gpa >= other.getGpa();
